@@ -20,12 +20,14 @@ class TeslaApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-      builder: (child) => MaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(fontFamily: 'Gotham Pro'),
-        home: const SplashScreen(),
-      ),
       designSize: const Size(475, 1082),
+      builder: (context, child) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          theme: ThemeData(fontFamily: 'Gotham Pro'),
+          home: const SplashScreen(),
+        );
+      },
     );
   }
 }
