@@ -32,7 +32,7 @@ class _CarOptionState extends State<CarOption> {
     return SingleChildScrollView(
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         const Heading(
-          text: 'Select Your Car',
+          text: 'Select Your Car-',
         ),
         Image.asset('assets/images/tesla_red.png'),
         Padding(
