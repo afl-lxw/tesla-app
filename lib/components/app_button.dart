@@ -18,7 +18,7 @@ class AppButton extends StatelessWidget {
               padding: MaterialStateProperty.all(
                   EdgeInsets.symmetric(vertical: 24.h)),
               shape: MaterialStateProperty.all(RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(60),
+                borderRadius: BorderRadius.circular(50),
                 side: const BorderSide(color: Color(0xFFD01000)),
               ))),
           onPressed: onPressed,
@@ -27,7 +27,7 @@ class AppButton extends StatelessWidget {
             style: TextStyle(
               color: Colors.black,
               fontSize: 20.sp,
-              fontWeight: FontWeight.w500,
+              fontWeight: FontWeight.w700,
             ),
           )),
     );

@@ -4,6 +4,8 @@ A Tesla Concept Mobile App project created in flutter using Provider. Code works
 
 - Link to Design: https://dribbble.com/shots/6201044-Tesla-Model-Y-Concept-Ui-Freebie-Figma
 
+### This project is a testing project for learning based on completed projects
+
 ## Preview
 
 ### Android
@@ -27,7 +29,7 @@ A Tesla Concept Mobile App project created in flutter using Provider. Code works
 Download or clone this repo by using the link below:
 
 ```
-https://github.com/EjiroAv/tesla_mobile_app_concept.git
+https://github.com/afl-lxw/tesla-app
 ```
 
 **Step 2:**
@@ -45,8 +47,3 @@ Run App:
 ```
 flutter run
 ```
-
-## Conclusion
-
-I Enjoyed building this project - Hope you find it as interesting as I did. 🙂
-Built By [Veg@sAndroid](https://vegasandroid.github.io/)
